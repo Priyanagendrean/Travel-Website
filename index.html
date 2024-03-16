@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ADVENTURE</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <nav class="navbar">
+            <h1 class="logo">ADVENTURE</h1>
+            <ul class="nav-link">
+                <li class="active"><a href="#" style="color: whitesmoke;">Home</a></li>
+                <li class="active"><a href="#"style="color: whitesmoke;" >Tours</a></li>
+                <li class="active"><a href="#"style="color: whitesmoke;">Explore</a></li>
+                <li class="active"><a href="#" style="color: whitesmoke;">About</a></li>
+                <li class ="btn"><a  href="#" style="color: whitesmoke;">More</a></li>
+            </ul>  
+            <img src="menu-btn.png" class="menu-btn">
+        </nav>
+      <header id="hea">
+        <div class="header-content">
+            <h2>Explore the colorful world</h2>
+            <div class="line"></div>
+            <h1>A wonderful Gift</h1>
+            <a href="#" class="btn">Learn btn</a>
+        </div>
+      
+      </header>
+      <section class="events "  >
+        <div class="title">
+        <h1>Upcoming Events</h1></div>
+        <div class="line"></div>
+        <div class="row">
+            <div class="col">
+                <img src="img1.png">
+                <h4>Everest camp Truck</h4>
+                <p>The base camps are rudimentary campsites at the base of Mount Everest that are used by mountain climbers during their ascent and descent.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="img2.png">
+                <h4> Walking holidays</h4>
+                <p>The base camps are rudimentary campsites at the base of Mount Everest that are used by mountain climbers during their ascent and descent.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore" >
+        <div class="explore-content">
+        <h1>Explore the world</h1>
+        <div class="line"></div>
+        <p>The base camps are rudimentary campsites at the base of Mount Everest that are used by mountain climbers during their ascent and descent</p>
+        <a href="#" class="btn">Learn More</a></div>
+
+    </section>
+    <section class="tours" >
+        <div class="row">
+            <div class=" content-col">
+                <h1>Upcoming Tours &Destination</h1>
+                <div class="line"></div>
+                <p>The snow forecast for Mount Everest is: Mostly dry. Extremely cold (max -19°C on Fri afternoon, min -24°C on Fri night).</p>
+                <a href="#" class="btn">LearnMore</a>
+            </div>
+            <div class=" image-col">
+                <div class="image-gallery">
+                    <img src="img1.png">
+                    <img src="img4.png">
+                    <img src="img5.png">
+                    <img src="img6.png">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="footer">
+        <p>123 FIFTH AVENUE,NY 10160,NEW YORK,USA |Phone:000-999-888|Email:contact@example.com</p>
+    </section>
+      <script>
+        const menuBtn=document.querySelector('.menu-btn')
+        const navlink=document.querySelector('.nav-link')
+        menuBtn.addEventListener('click',()=>{navlink.classList.toggle('mobile-menu')})
+      </script>
+    </body>
+</html>
